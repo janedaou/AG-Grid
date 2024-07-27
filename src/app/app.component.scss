@@ -1,0 +1,14 @@
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-quartz.css';
+
+.ag-theme-quartz {
+  --ag-foreground-color: rgb(0, 0, 0); /* Black text */ 
+  --ag-background-color: rgb(196, 255, 255); /* Cyan background */
+  --ag-header-foreground-color: rgb(255, 255, 255); /* White header text */
+  --ag-header-background-color: rgb(255, 152, 152); /* Light red header background */
+  --ag-odd-row-background-color: rgb(255, 255, 255); /* White for odd rows */
+  --ag-header-column-resize-handle-color: rgb(255, 255, 255); /* White resize handle */
+
+  --ag-font-size: 15px;
+  --ag-font-family: monospace;
+}

@@ -1,0 +1,20 @@
+.availability-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .available .dot {
+    background-color: green;
+  }
+  
+  .not-available .dot {
+    background-color: red;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
